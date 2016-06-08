@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sk">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+	Registr&aacute;cia dokladu - N&aacute;rodn&aacute; bločkov&aacute; lot&eacute;ria
+</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" />
+  <meta name="keywords" />
+  <meta name="author" content="(c) 1998 - 2013 Millennium 000, spol. s r. o., URL: http://www.millennium.sk" />
+  <meta name="classification" />
+  <link href="/Img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="/Css/style.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="/Css/mobile.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="/Css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" /> 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+  <script src="/Scripts/jquery-ui-1.10.3.custom.min.js"></script> 
+  <script type="text/javascript" src="/Scripts/jwplayer.js"></script> 
+  <script src="/Scripts/jquery.ui.datepicker-sk.js"></script> 
+  <script src="/Scripts/timepicker.min.js"></script> 
+  <script src="/Scripts/main.js"></script> 
+  <script src="/Scripts/analytics.js"></script> 
+  <!--[if gte IE 9]>
+          <style type="text/css">
+            .gradient {
+               filter: none;
+            }
+          </style>
+        <![endif]--> 
+ </head> 
+ <body id="body1"> 
+  <form method="post" action="/sk/administracia/registracia-dokladu" id="myForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTkwMzkwMzg2Nw9kFgICAQ9kFgICARBkZBYGAgEPZBYCZg9kFgRmDxYCHgdWaXNpYmxlaBYGAgEPDxYCHgtOYXZpZ2F0ZVVybAUdL3NrL2FkbWluaXN0cmFjaWEvcHJpaGxhc2VuaWVkZAICDw8WAh8BBSMvc2svYWRtaW5pc3RyYWNpYS9yZWdpc3RyYWNpYS1ocmFjYWRkAgMPDxYCHwEFIS9zay9hZG1pbmlzdHJhY2lhL3phYnVkbnV0ZS1oZXNsb2RkAgIPZBYCAgEPDxYCHgRUZXh0BRVqYW5tdXJpbjJAaG90bWFpbC5jb21kZAIDD2QWBGYPZBYCZg8PFgQeClNlbGVjdGVkSWQoKVhTeXN0ZW0uR3VpZCwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5JGMzNTY3OTAxLTMxMTAtNGJkMi1hY2I5LWEyMjEwMTA3NjEwYx4LXyFEYXRhQm91bmRnZBYCZg8WAh4FY2xhc3MFBG1lbnUWDGYPZBYCZg8WBB4EaHJlZgUTL3NrL3RpdHVsbmEtc3RyYW5rYR4GdGFyZ2V0BQVfc2VsZmQCAQ9kFgRmDxYEHwYFFi9zay92eWhyeS1hLXZ5aGVyY292aWEfBwUFX3NlbGZkAgEPZBYGZg9kFgJmDxYEHwYFJi9zay92eWhyeS1hLXZ5aGVyY292aWEvb3ZlcmVuaWUtc3Rhdmt5HwcFBV9zZWxmZAIBD2QWAmYPFgQfBgUpL3NrL3Z5aHJ5LWEtdnloZXJjb3ZpYS9rYWxlbmRhci16cmVib3ZhbmkfBwUFX3NlbGZkAgIPZBYCZg8WBB8GBSIvc2svdnlocnktYS12eWhlcmNvdmlhL28tY28tc2EtaHJhHwcFBV9zZWxmZAICD2QWBGYPFgQfBgUUL3NrL2Frby1ocmF0LWxvdGVyaXUfBwUFX3NlbGZkAgEPZBYIZg9kFgJmDxYEHwYFMi9zay9ha28taHJhdC1sb3Rlcml1L3ByaXJ1Y2thLXByZS13ZWJvdnUtYXBsaWthY2l1HwcFBV9zZWxmZAIBD2QWAmYPFgQfBgUzL3NrL2Frby1ocmF0LWxvdGVyaXUvcHJpcnVja2EtcHJlLW1vYmlsbnUtYXBsaWthY2l1HwcFBV9zZWxmZAICD2QWAmYPFgQfBgUoL3NrL2Frby1ocmF0LWxvdGVyaXUvbmFqY2FzdGVqc2llLW90YXpreR8HBQVfc2VsZmQCAw9kFgJmDxYEHwYFIS9zay9ha28taHJhdC1sb3Rlcml1L3RyZXRpYS1zYW5jYR8HBQVfc2VsZmQCAw9kFgRmDxYEHwYFDi9zay9oZXJueS1wbGFuHwcFBV9zZWxmZAIBD2QWDGYPZBYCZg8WBB8GBS0vc2svaGVybnktcGxhbi92b3Atd2Vib3ZhLWEtbW9iaWxuYS1hcGxpa2FjaWEfBwUFX3NlbGZkAgEPZBYCZg8WBB8GBSMvc2svaGVybnktcGxhbi92b3Atb3JhbmdlLXNsb3ZlbnNrbx8HBQVfc2VsZmQCAg9kFgJmDxYEHwYFIS9zay9oZXJueS1wbGFuL3ZvcC1zbG92YWstdGVsZWtvbR8HBQVfc2VsZmQCAw9kFgJmDxYEHwYFHS9zay9oZXJueS1wbGFuL3ZvcC10ZWxlZm9uaWNhHwcFBV9zZWxmZAIED2QWAmYPFgQfBgUjL3NrL2hlcm55LXBsYW4vbWFuaXB1bGFjbmUtcG9wbGF0a3kfBwUFX3NlbGZkAgUPZBYCZg8WBB8GBScvc2svaGVybnktcGxhbi9zdGF0dXQtdGVsZXZpem5lai1zdXRhemUfBwUFX3NlbGZkAgQPZBYCZg8WBB8GBRQvc2svcGFydG5lcmktbG90ZXJpZR8HBQVfc2VsZmQCBQ8WAh8FBQhzZWxlY3RlZBYCZg8WBB8GBREvc2svYWRtaW5pc3RyYWNpYR8HBQVfc2VsZmQCAQ9kFgJmD2QWCAIBDxYCHwUFCHNlbGVjdGVkFgJmDw8WAh8BBSUvc2svYWRtaW5pc3RyYWNpYS9yZWdpc3RyYWNpYS1kb2tsYWR1ZGQCAg9kFgJmDw8WAh8BBR0vc2svYWRtaW5pc3RyYWNpYS9tb2plLXN0YXZreWRkAgMPZBYCZg8PFgIfAQUcL3NrL2FkbWluaXN0cmFjaWEvbW9qZS12eWhyeWRkAgQPZBYCZg8PFgIfAQUhL3NrL2FkbWluaXN0cmFjaWEvb3ZlcmVuaWUtc3Rhdmt5ZGQCBw9kFgICAQ9kFgJmD2QWAgILD2QWBAICDw8WAh8BBS4vYXVkaW9jYXB0Y2hhLmF4ZC9jazN2Q3FwVGU4SFJUTU11aHpVUGlBPT0ubXAzZGQCAw8PFgIfAQUuL2F1ZGlvY2FwdGNoYS5heGQvY2szdkNxcFRlOEhSVE1NdWh6VVBpQT09Lm1wM2RkZHTQrNRRzeO8GOUXVuOarseEaXV6" /> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAkLztnDaxDOsHtP7si6hFZxx66NbADUFD0PNbqfdJaoDgo9vN9u9eiBWUG/uM+iNWbqg7pjtxYw3nhXMLoSpzMRR5G9TJtTUBCmX54aejAltBh8/eS0DCXeufEac5bjnkgDxLgn66qicApjWZdHWxe9gYQzLN1d2P4LIS3JwQOC9o9RIH3cHryv/9as2RPJEwaN7jQPDOdBOOcKcNTkpVxjS0pR8Q==" /> 
+   </div> 
+   <div id="container"> 
+    <div id="wrapper" class="centerPage clr"> 
+     <div id="header"> 
+      <div id="logo"> 
+       <div id="logoNBL"> 
+        <a href="/" id="home" title="&Uacute;vodn&aacute; str&aacute;nka"><span>N&aacute;rodn&aacute; bločkov&aacute; lot&eacute;ria</span></a> 
+       </div> 
+       <div id="logoTipos"> 
+        <a href="http://www.tipos.sk" id="A1" title="Tipos"><span>Tipos</span></a> 
+       </div> 
+      </div> 
+      <div id="loggedButtonContainer"> 
+       <span id="M2_lblEmail" class="loggedUserName">janmurin2@hotmail.com</span>
+       <a id="M2_btnOdhlasit" class="headerButton headerButtonRed" href="javascript:__doPostBack('M2$btnOdhlasit','')">Odhl&aacute;siť</a> 
+      </div> 
+      <a id="faq" href="https://narodnablockovaloteria.tipos.sk/sk/ako-hrat-loteriu/najcastejsie-otazky"><span>Najčastejšie ot&aacute;zky</span></a> 
+     </div> 
+     <div id="navigation"> 
+      <ul class="menu">
+       <li><a href="/sk/titulna-stranka" target="_self">Tituln&aacute; str&aacute;nka</a></li>
+       <li><a href="/sk/vyhry-a-vyhercovia" target="_self">V&yacute;hry a v&yacute;hercovia</a>
+        <ul>
+         <li><a href="/sk/vyhry-a-vyhercovia/overenie-stavky" target="_self">Overenie st&aacute;vky</a></li>
+         <li><a href="/sk/vyhry-a-vyhercovia/kalendar-zrebovani" target="_self">Kalend&aacute;r žrebovan&iacute;</a></li>
+         <li><a href="/sk/vyhry-a-vyhercovia/o-co-sa-hra" target="_self">O čo sa hr&aacute;</a></li>
+        </ul></li>
+       <li><a href="/sk/ako-hrat-loteriu" target="_self">Ako hrať lot&eacute;riu</a>
+        <ul>
+         <li><a href="/sk/ako-hrat-loteriu/prirucka-pre-webovu-aplikaciu" target="_self">Pr&iacute;ručka pre webov&uacute; aplik&aacute;ciu</a></li>
+         <li><a href="/sk/ako-hrat-loteriu/prirucka-pre-mobilnu-aplikaciu" target="_self">Pr&iacute;ručka pre mobiln&uacute; aplik&aacute;ciu</a></li>
+         <li><a href="/sk/ako-hrat-loteriu/najcastejsie-otazky" target="_self">Najčastejšie ot&aacute;zky</a></li>
+         <li><a href="/sk/ako-hrat-loteriu/tretia-sanca" target="_self">Tretia šanca</a></li>
+        </ul></li>
+       <li><a href="/sk/herny-plan" target="_self">Hern&yacute; pl&aacute;n</a>
+        <ul>
+         <li><a href="/sk/herny-plan/vop-webova-a-mobilna-aplikacia" target="_self">VOP webov&aacute; a mobiln&aacute; aplik&aacute;cia</a></li>
+         <li><a href="/sk/herny-plan/vop-orange-slovensko" target="_self">VOP Orange Slovensko</a></li>
+         <li><a href="/sk/herny-plan/vop-slovak-telekom" target="_self">VOP Slovak Telekom</a></li>
+         <li><a href="/sk/herny-plan/vop-telefonica" target="_self">VOP Telef&oacute;nica</a></li>
+         <li><a href="/sk/herny-plan/manipulacne-poplatky" target="_self">Manipulačn&eacute; poplatky</a></li>
+         <li><a href="/sk/herny-plan/statut-televiznej-sutaze" target="_self">Štat&uacute;t telev&iacute;znej s&uacute;ťaže</a></li>
+        </ul></li>
+       <li><a href="/sk/partneri-loterie" target="_self">Partneri lot&eacute;rie</a></li>
+       <li class="selected"><a href="/sk/administracia" target="_self">Administr&aacute;cia</a></li>
+      </ul> 
+      <ul class="adminMenu"> 
+       <li id="M4_liRegistraciaDokladu" class="selected"><a id="M4_lnkRegistraciaDokladu" href="/sk/administracia/registracia-dokladu">Registr&aacute;cia dokladu</a></li>
+       <li id="M4_liHistorickyZoznam"><a id="M4_lnkHistorickyZoznam" href="/sk/administracia/moje-stavky">Moje st&aacute;vky</a></li>
+       <li id="M4_liVyhernyZoznam"><a id="M4_lnkVyhernyZoznam" href="/sk/administracia/moje-vyhry">Moje v&yacute;hry</a></li>
+       <li id="M4_liOverenieTiketu"><a id="M4_lnkOverenieTiketu" href="/sk/administracia/overenie-stavky">Overenie st&aacute;vky</a></li> 
+      </ul> 
+     </div> 
+     <div id="slider-sub" class="subpage"> 
+      <p><img src="/_img/Pictures/Banners Top Subpage/OCoSaHra_Small.jpg" alt="" border="0" /></p> 
+     </div> 
+     <div id="content" class="clr"> 
+      <div id="submain"> 
+       <h1 id="top">Registr&aacute;cia dokladu</h1> 
+       <script>
+   
+    $(function () {
+        $("#M6_tbDKP").focus();
+
+        $('.datepicker').datetimepicker();
+
+        $("a.ticketExample").click(function (e) {
+            e.preventDefault();
+            openDialog();
+        });
+        
+        //if close button is clicked
+        $('.window .btn-close').click(function (e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $('#mask, .window').hide();
+        });
+
+        //if mask is clicked
+        $('#mask').click(function () {
+            $(this).hide();$('.window').hide();
+        });
+
+    });
+
+    function openDialog() {
+
+        var id = $("#dialog-ticket");
+        //Get the screen height and width
+        var maskHeight = $(document).height();
+        var maskWidth = $(window).width();
+
+        //Set height and width to mask to fill up the whole screen
+        $('#mask').css({ 'width': maskWidth, 'height': maskHeight });
+
+        //transition effect	
+        $('#mask').fadeTo("slow", 0.8);
+
+        //Get the window height and width
+        var winH = $(window).height();
+        var winW = $(window).width();
+
+        //Set the popup window to center
+        $(id).css('top', winH / 2 - $(id).height() / 2);
+        $(id).css('left', winW / 2 - $(id).width() / 2);
+
+        //transition effect
+        $(id).fadeIn();
+    }
+
+
+</script> 
+       <div id="M6_pnlRegistered"> 
+        <div class="form"> 
+         <p> <label for="M6_tbDKP">DKP:<span class="required"> *</span></label> <input name="M6$tbDKP" type="text" value="744202293012900" id="M6_tbDKP" tabindex="1" class="txtBoxElem long" /> <span id="M6_revDKP" class="errMsg">Zadajte DKP v spr&aacute;vnom form&aacute;te</span> </p> 
+         <p> <label for="M6_tbDate">D&aacute;tum a čas n&aacute;kupu:<span class="required"> *</span></label> <input name="M6$tbDate" type="text" value="2014-07-07 06:00" id="M6_tbDate" tabindex="2" class="txtBoxElem short datepicker" /> &nbsp; </p> 
+         <p> <label for="M6_tbPrice">Suma:<span class="required"> *</span></label> <input name="M6$tbPrice" type="text" value="45.0" id="M6_tbPrice" tabindex="3" class="txtBoxElem short mblShort" /> <span class="eur">EUR</span> </p> 
+         <div class="captcha"> 
+          <p> <label for="M6_captcha_txtCaptcha" id="M6_captcha_Label1" class="r2">Bezpečnostn&yacute; prvok:</label> <img id="imgCaptcha" src="/captcha.axd?c=ck3vCqpTe8HRTMMuhzUPiA==&amp;bc=ffffff" alt="" title="" /> </p> 
+          <a id="M6_captcha_btnRegister" class="captchaReload" href="javascript:__doPostBack('M6$captcha$btnRegister','')">in&yacute; obr&aacute;zok</a> 
+          <a id="hlAudio" class="captchaAudio" causesvalidation="false" href="/audiocaptcha.axd/ck3vCqpTe8HRTMMuhzUPiA==.mp3" target="_blank">prehrať k&oacute;d</a> 
+          <a id="hlAudioDownload" class="captchaDownloadAudio" causesvalidation="false" href="/audiocaptcha.axd/ck3vCqpTe8HRTMMuhzUPiA==.mp3" target="_blank">stiahnuť k&oacute;d</a> 
+          <label for="M6_captcha_txtCaptcha" id="M6_captcha_ltrCaptcha" class="r2">Zadajte bezpečnostn&yacute; prvok: <span class="required">*</span></label> 
+          <input name="M6$captcha$txtCaptcha" type="text" value="rawt" id="M6_captcha_txtCaptcha" tabindex="4" title="Bezpečnostn&yacute; prvok" class="shorter" /> 
+          <div id="jquery_jplayer_1" style="height: 1px; width:1px; clear:both; float:left"></div> 
+          <script src="/Scripts/jwplayer.js" type="text/javascript"></script> 
+          <script type="text/javascript">
+    $(function () {
+        var src = $("#hlAudio").attr('href');
+       // src = "/../L6ljAKvM6LiSR5M6kCVg6A==.mp3";
+
+        jwplayer("jquery_jplayer_1").setup({
+           provider: 'sound',
+           swfPath: "/scripts/jwplayer.flash.swf",
+           file: src,
+           height: 1,
+           width: 1,
+           controlbar: 'bottom'
+
+        });
+
+        $('#hlAudio').click(function (e) {
+            e.preventDefault();
+
+            jwplayer().play();
+        });
+    });
+</script> 
+          <p></p> 
+         </div> 
+         <p> <a href="#" class="ticketExample">Kde n&aacute;jdem &uacute;daje ?</a> </p> 
+        </div> 
+        <div class="formButtons"> 
+         <input type="submit" name="M6$btnRegister" value="Registruj" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;M6$btnRegister&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="M6_btnRegister" class="formBtn" /> 
+         <input type="submit" name="M6$btnCancel" value="Zrušiť" id="M6_btnCancel" class="formBtn" /> 
+        </div> 
+        <p class="isRequiredText"><span class="red">*</span> - polia s&uacute; povinn&eacute;</p> 
+        <div id="dialog-ticket" class="window" style="display:none;"> 
+         <div class="ui-close-icon"> 
+          <a href="#" id="close" class="btn-close">X</a> 
+         </div> 
+         <img src="/ImgCont/pokladnicnyblok.jpg" alt="Pokladničn&yacute; blok" width="350" /> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="banners"> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="footer"> 
+     <div class="footerWrap centerPage clr"> 
+      <div id="footerMenu"> 
+       <ul> 
+        <li><a href="http://www.tipos.sk/Default.aspx?CatID=548">Kontaktn&eacute; inform&aacute;cie</a></li> 
+        <li><a href="http://www.tipos.sk/Default.aspx?CatID=99">Technick&aacute; podpora pre n&aacute;vštevn&iacute;kov</a></li> 
+       </ul> 
+      </div> 
+      <div id="footerContent"> 
+       <p>Všetky pr&aacute;va vyhraden&eacute;. &copy; 2013 <strong>TIPOS, n&aacute;rodn&aacute; lot&eacute;riov&aacute; spoločnosť, a. s.</strong></p> 
+       <p>&Uacute;časť na lot&eacute;riov&yacute;ch hr&aacute;ch je ZAK&Aacute;ZAN&Aacute; osob&aacute;m mladš&iacute;m ako 18 rokov</p> 
+       <a href="http://www.millennium.sk">Technology by Millennium</a>
+      </div> 
+     </div> 
+    </div> 
+    <div id="mask"></div> 
+   </div> 
+  </form>   
+ </body>
+</html>
